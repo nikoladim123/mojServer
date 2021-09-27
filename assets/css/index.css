@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  /* background: black; */
+}
+
+header {
+  position: relative;
+  /* display: none; */
+}
+
+header img {
+  width: 50%;
+  box-shadow: 0vw 0vw 4vw rgba(255, 255, 255, 0.14);
+  margin-left: 25%;
+}
+
+header h1 {
+  text-shadow: 0vw 0vw 1vw rgba(255, 255, 255, 0.4);
+  font-size: 2vw;
+  text-align: center;
+  animation-name: mainText;
+  animation-duration: 3s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  margin: 0;
+}
+
+@keyframes mainText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    font-size: 15vw;
+  }
+}
+
+/* log in widgedt start */
+.widgetBox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+}
+
+.searchContainer {
+  /* background: red; */
+  padding: 1px;
+}
+
+.widgetBox input {
+  display: block;
+}
+
+.searchContainer button {}
+
+.loginContainer {}
+
+.registerContainer {}
+
+.loginContainer input {
+  display: block;
+}
+
+.registerContainer button {}
+
+/* log in widgedt end */
